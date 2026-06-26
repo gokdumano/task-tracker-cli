@@ -1,5 +1,3 @@
-<!-- https://roadmap.sh/projects/task-tracker -->
-
 # Task Tracker CLI :speech_balloon:
 
 ![Bash](https://img.shields.io/badge/Language-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
@@ -154,3 +152,5 @@ The test script uses a temporary `HOME` directory so it does not modify your rea
 By the end of this project, you will have developed a practical tool that can help you or others manage tasks efficiently. This project lays a solid foundation for more advanced programming projects and real-world applications.
 
 Happy coding!
+
+https://roadmap.sh/projects/task-tracker
