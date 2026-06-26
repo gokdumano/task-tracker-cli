@@ -93,7 +93,60 @@ Here are a few steps to help you get started with the Task Tracker CLI project:
    - Ensure all features are implemented and tested.
    - Clean up your code and add comments where necessary.
    - Write a good readme file on how to use your Task Tracker CLI.
-   
+
+## Usage
+
+Clone the repository and make the CLI script executable:
+
+```bash
+git clone https://github.com/gokdumano/task-tracker-cli.git
+cd task-tracker-cli
+chmod +x task-tracker.sh
+```
+
+Run the script directly from the repository:
+
+```bash
+./task-tracker.sh add "Buy groceries"
+./task-tracker.sh list
+./task-tracker.sh update 1 "Buy groceries and cook dinner"
+./task-tracker.sh mark-in-progress 1
+./task-tracker.sh mark-done 1
+./task-tracker.sh delete 1
+```
+
+If you want to use the script as a command from anywhere, add it to your PATH:
+
+```bash
+sudo mv task-tracker.sh /usr/local/bin/task-tracker
+```
+
+Then you can run it as:
+
+```bash
+task-tracker add "Buy groceries"
+task-tracker list done
+```
+
+## Tests
+
+A minimal smoke test is included under `tests/task-tracker-test.sh`.
+
+Run it from the repository root:
+
+```bash
+chmod +x tests/task-tracker-test.sh
+./tests/task-tracker-test.sh
+```
+
+The test script uses a temporary `HOME` directory so it does not modify your real `~/.cache/task-tracker-cli/tasks.json`. It verifies:
+
+- adding tasks
+- updating a task
+- marking a task in progress
+- marking a task done
+- deleting a task
+
 ---
 
 By the end of this project, you will have developed a practical tool that can help you or others manage tasks efficiently. This project lays a solid foundation for more advanced programming projects and real-world applications.
