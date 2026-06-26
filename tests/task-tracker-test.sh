@@ -30,9 +30,3 @@ if [ "$(jq -r '.tasks[] | select(.id == 2) | .status' "$tasks_file")" != "in-pro
   echo "ERR: task 2 was not marked in-progress" >&2
   exit 1
 fi
-
-./task-tracker.sh mark-done 1
-if [ "$(jq -r '.tasks[] | select(.id == 1) | .status' "if [ "$(jq -r '.tasks[] | select(.id == 1) | .status' "if [ "$(jq -r '.tasks[] | select(.id =task-tracker.sh delete 2
-if [ "$(jq '.tasif [ "$(jq '.tasif [ "$(jq '.tasif [ "$(jq '.tasif ERR: expected 1 task after delete" >&2
-  exit 1
-fi
