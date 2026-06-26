@@ -1,9 +1,18 @@
-# Task Tracker CLI
+# Task Tracker CLI :speech_balloon:
 
 ![Bash](https://img.shields.io/badge/Language-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)
 
-Task tracker is a project used to track and manage your tasks. In this task, you will build a simple command line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
+<!-- 
+For a full list of available emoji and codes, see the Emoji-Cheat-Sheet[1].
+
+[1] https://github.com/ikatyang/emoji-cheat-sheet/blob/github-actions-auto-update/README.md
+-->
+
+Task tracker is a project used to track and manage your tasks. In this task, you will build a simple command line interface (CLI) to track what you need to do, what you have done, and what you are currently working on.
+
+> [!TIP]
+> This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
 
 ## Requirements
 
@@ -61,7 +70,8 @@ Each task should have the following properties:
 - `createdAt`: The date and time when the task was created
 - `updatedAt`: The date and time when the task was last updated
 
-Make sure to add these properties to the JSON file when adding a new task and update them when updating a task.
+> [!NOTE]
+> Make sure to add these properties to the JSON file when adding a new task and update them when updating a task.
 
 ## Getting Started
  
